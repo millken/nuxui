@@ -5,8 +5,8 @@
 package ui
 
 import (
-	"nuxui.org/nuxui/log"
-	"nuxui.org/nuxui/nux"
+	"github.com/millken/nuxui/log"
+	"github.com/millken/nuxui/nux"
 )
 
 const (
@@ -41,7 +41,7 @@ func button_theme(kind nux.ThemeKind) nux.Attr {
 			"clickable":  true,
 			"padding":    nux.Attr{"left": "6px", "top": "3px", "right": "6px", "bottom": "3px"},
 			"background": nux.Attr{
-				"type": "nuxui.org/nuxui/ui.ShapeDrawable",
+				"type": "github.com/millken/nuxui/ui.ShapeDrawable",
 				"states": []nux.Attr{
 					{"state": "default", "shape": nux.Attr{
 						"shape":        "rect",
@@ -72,7 +72,7 @@ func button_theme(kind nux.ThemeKind) nux.Attr {
 			"clickable":  true,
 			"padding":    nux.Attr{"left": "6px", "top": "3px", "right": "6px", "bottom": "3px"},
 			"background": nux.Attr{
-				"type": "nuxui.org/nuxui/ui.ShapeDrawable",
+				"type": "github.com/millken/nuxui/ui.ShapeDrawable",
 				"states": []nux.Attr{
 					{"state": "default", "shape": nux.Attr{
 						"shape":        "rect",
@@ -120,7 +120,7 @@ func editor_theme(kind nux.ThemeKind) nux.Attr {
 			"padding":   nux.Attr{"left": "6px", "top": "3px", "right": "6px", "bottom": "3px"},
 			"cursor":    "",
 			"background": nux.Attr{
-				"type": "nuxui.org/nuxui/ui.ShapeDrawable",
+				"type": "github.com/millken/nuxui/ui.ShapeDrawable",
 				"states": []nux.Attr{
 					{"state": "default", "shape": nux.Attr{
 						"shape":        "rect",
@@ -154,12 +154,12 @@ func check_theme(kind nux.ThemeKind) nux.Attr {
 			"padding":   nux.Attr{"left": "0px", "top": "8px", "right": "0px", "bottom": "8px"},
 			"icon": nux.Attr{
 				"left": nux.Attr{
-					"type":   "nuxui.org/nuxui/ui.Image",
+					"type":   "github.com/millken/nuxui/ui.Image",
 					"width":  "1.2em",
 					"height": "1.2em",
 					"margin": nux.Attr{"right": "6px"},
 					"src": nux.Attr{
-						"type": "nuxui.org/nuxui/ui.ImageDrawable",
+						"type": "github.com/millken/nuxui/ui.ImageDrawable",
 						"states": []nux.Attr{
 							{"state": "default", "src": img_check_default},
 							{"state": "checked", "src": img_check_checked},
@@ -190,12 +190,12 @@ func radio_theme(kind nux.ThemeKind) nux.Attr {
 			"padding":   nux.Attr{"left": "0px", "top": "8px", "right": "0px", "bottom": "8px"},
 			"icon": nux.Attr{
 				"left": nux.Attr{
-					"type":   "nuxui.org/nuxui/ui.Image",
+					"type":   "github.com/millken/nuxui/ui.Image",
 					"width":  "1.2em",
 					"height": "1.2em",
 					"margin": nux.Attr{"right": "6px"},
 					"src": nux.Attr{
-						"type": "nuxui.org/nuxui/ui.ImageDrawable",
+						"type": "github.com/millken/nuxui/ui.ImageDrawable",
 						"states": []nux.Attr{
 							{"state": "default", "src": img_radio_default},
 							{"state": "checked", "src": img_radio_checked},
@@ -226,12 +226,12 @@ func switch_theme(kind nux.ThemeKind) nux.Attr {
 			"padding":   nux.Attr{"left": "0px", "top": "8px", "right": "0px", "bottom": "8px"},
 			"icon": nux.Attr{
 				"left": nux.Attr{
-					"type":   "nuxui.org/nuxui/ui.Image",
+					"type":   "github.com/millken/nuxui/ui.Image",
 					"width":  "1.2em",
 					"height": "1.2em",
 					"margin": nux.Attr{"right": "6px"},
 					"src": nux.Attr{
-						"type": "nuxui.org/nuxui/ui.ImageDrawable",
+						"type": "github.com/millken/nuxui/ui.ImageDrawable",
 						"states": []nux.Attr{
 							{"state": "default", "src": img_switch_off},
 							{"state": "checked", "src": img_switch_on},

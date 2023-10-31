@@ -11,7 +11,7 @@ import (
 	"runtime"
 	"syscall"
 
-	"nuxui.org/nuxui/nux/internal/win32"
+	"github.com/millken/nuxui/nux/internal/win32"
 )
 
 func loadImageFromFile(path string) Image {

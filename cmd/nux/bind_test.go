@@ -15,7 +15,7 @@ import (
 	"testing"
 	"text/template"
 
-	"nuxui.org/nuxui/cmd/nux/internal/sdkpath"
+	"github.com/millken/nuxui/cmd/nux/internal/sdkpath"
 )
 
 func TestBindAndroid(t *testing.T) {
@@ -262,10 +262,10 @@ func TestBindWithGoModules(t *testing.T) {
 	}
 	defer os.RemoveAll(dir)
 
-	if out, err := exec.Command("go", "build", "-o="+dir, "nuxui.org/nuxui/cmd/gobind").CombinedOutput(); err != nil {
+	if out, err := exec.Command("go", "build", "-o="+dir, "github.com/millken/nuxui/cmd/gobind").CombinedOutput(); err != nil {
 		t.Fatalf("%v: %s", err, string(out))
 	}
-	if out, err := exec.Command("go", "build", "-o="+dir, "nuxui.org/nuxui/cmd/nux").CombinedOutput(); err != nil {
+	if out, err := exec.Command("go", "build", "-o="+dir, "github.com/millken/nuxui/cmd/nux").CombinedOutput(); err != nil {
 		t.Fatalf("%v: %s", err, string(out))
 	}
 	path := dir

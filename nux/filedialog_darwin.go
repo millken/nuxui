@@ -7,7 +7,7 @@
 package nux
 
 import (
-	"nuxui.org/nuxui/nux/internal/darwin"
+	"github.com/millken/nuxui/nux/internal/darwin"
 )
 
 func showViewFileDialog(dialog *viewFileDialog) {

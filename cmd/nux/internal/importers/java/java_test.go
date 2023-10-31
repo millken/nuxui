@@ -8,7 +8,7 @@ import (
 	"reflect"
 	"testing"
 
-	"nuxui.org/nuxui/cmd/nux/internal/importers"
+	"github.com/millken/nuxui/cmd/nux/internal/importers"
 )
 
 func TestImport(t *testing.T) {

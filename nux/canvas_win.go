@@ -7,8 +7,9 @@
 package nux
 
 import (
-	"nuxui.org/nuxui/nux/internal/win32"
 	"runtime"
+
+	"github.com/millken/nuxui/nux/internal/win32"
 )
 
 type canvas struct {

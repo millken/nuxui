@@ -7,8 +7,8 @@
 package nux
 
 import (
-	"nuxui.org/nuxui/log"
-	"nuxui.org/nuxui/nux/internal/win32"
+	"github.com/millken/nuxui/log"
+	"github.com/millken/nuxui/nux/internal/win32"
 )
 
 // https://docs.microsoft.com/en-us/windows/win32/api/winuser/nf-winuser-geticoninfoexw

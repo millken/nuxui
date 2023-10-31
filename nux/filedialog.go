@@ -5,8 +5,9 @@
 package nux
 
 import (
-	"nuxui.org/nuxui/log"
 	"os"
+
+	"github.com/millken/nuxui/log"
 )
 
 type Response int

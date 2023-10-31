@@ -7,8 +7,9 @@
 package nux
 
 import (
-	"nuxui.org/nuxui/nux/internal/ios"
 	"runtime"
+
+	"github.com/millken/nuxui/nux/internal/ios"
 )
 
 func loadImageFromFile(filename string) Image {

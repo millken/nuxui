@@ -7,10 +7,11 @@
 package nux
 
 import (
-	"nuxui.org/nuxui/log"
-	"nuxui.org/nuxui/nux/internal/linux/xlib"
 	"runtime"
 	"time"
+
+	"github.com/millken/nuxui/log"
+	"github.com/millken/nuxui/nux/internal/linux/xlib"
 )
 
 const XALL_EVENT = (xlib.KeyPressMask | xlib.KeyReleaseMask | xlib.ButtonPressMask |

@@ -5,7 +5,7 @@
 package nux
 
 import (
-	"nuxui.org/nuxui/log"
+	"github.com/millken/nuxui/log"
 )
 
 type ThemeKind int

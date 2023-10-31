@@ -7,8 +7,9 @@
 package nux
 
 import (
-	"nuxui.org/nuxui/nux/internal/cairo"
 	"runtime"
+
+	"github.com/millken/nuxui/nux/internal/cairo"
 )
 
 type path struct {

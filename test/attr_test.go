@@ -8,13 +8,13 @@ import (
 	"fmt"
 	"testing"
 
-	"nuxui.org/nuxui/nux"
+	"github.com/millken/nuxui/nux"
 )
 
 var template = `
 {
   import: {
-    ui: nuxui.org/nuxui/ui,
+    ui: github.com/millken/nuxui/ui,
   },
 
   layout: {
@@ -31,7 +31,7 @@ var template = `
 		width: 1wt,
 		height: 30px,
 		background: #982368,
-		text: "nuxui.org example",
+		text: "github.com/millken example",
 		font: {family: "Menlo, Monaco, Courier New, monospace", size: 14, color: #ffffff }
 	},{
 		id: "header",

@@ -17,7 +17,7 @@ import (
 	"strings"
 	"testing"
 
-	"nuxui.org/nuxui/cmd/nux/internal/sdkpath"
+	"github.com/millken/nuxui/cmd/nux/internal/sdkpath"
 )
 
 func init() {

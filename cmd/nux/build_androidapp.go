@@ -20,7 +20,7 @@ import (
 	"path/filepath"
 	"strings"
 
-	"nuxui.org/nuxui/cmd/nux/internal/binres"
+	"github.com/millken/nuxui/cmd/nux/internal/binres"
 	"golang.org/x/tools/go/packages"
 )
 

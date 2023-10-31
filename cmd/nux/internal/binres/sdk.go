@@ -9,7 +9,7 @@ import (
 	"os"
 	"path/filepath"
 
-	"nuxui.org/nuxui/cmd/nux/internal/sdkpath"
+	"github.com/millken/nuxui/cmd/nux/internal/sdkpath"
 )
 
 // MinSDK is the targeted sdk version for support by package binres.

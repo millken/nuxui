@@ -8,7 +8,7 @@ import (
 	"math"
 	"runtime"
 
-	"nuxui.org/nuxui/log"
+	"github.com/millken/nuxui/log"
 )
 
 type Application interface {

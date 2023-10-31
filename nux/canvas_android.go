@@ -7,7 +7,7 @@
 package nux
 
 import (
-	"nuxui.org/nuxui/nux/internal/android"
+	"github.com/millken/nuxui/nux/internal/android"
 )
 
 type canvas struct {

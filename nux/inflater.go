@@ -9,7 +9,7 @@ import (
 	"path/filepath"
 	"strings"
 
-	"nuxui.org/nuxui/log"
+	"github.com/millken/nuxui/log"
 )
 
 func InflateStyles(styles ...string) Attr {
@@ -137,13 +137,13 @@ func InflateDrawable(drawable any) Drawable {
 	switch t := drawable.(type) {
 	case string:
 		if strings.HasPrefix(t, "#") {
-			return InflateDrawable(Attr{"type": "nuxui.org/nuxui/ui.ColorDrawable", "color": t})
+			return InflateDrawable(Attr{"type": "github.com/millken/nuxui/ui.ColorDrawable", "color": t})
 		} else if strings.Count(t, "/") >= 1 {
-			return InflateDrawable(Attr{"type": "nuxui.org/nuxui/ui.ImageDrawable", "src": t})
+			return InflateDrawable(Attr{"type": "github.com/millken/nuxui/ui.ImageDrawable", "src": t})
 		} else {
 			if path, err := filepath.Abs(t); err == nil {
 				if fileInfo, err := os.Stat(path); err == nil && !fileInfo.IsDir() {
-					return InflateDrawable(Attr{"type": "nuxui.org/nuxui/ui.ImageDrawable", "src": path})
+					return InflateDrawable(Attr{"type": "github.com/millken/nuxui/ui.ImageDrawable", "src": path})
 				}
 			}
 		}

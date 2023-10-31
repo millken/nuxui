@@ -17,7 +17,7 @@ import (
 	"strconv"
 	"strings"
 
-	"nuxui.org/nuxui/cmd/nux/internal/sdkpath"
+	"github.com/millken/nuxui/cmd/nux/internal/sdkpath"
 	"golang.org/x/tools/go/packages"
 )
 
@@ -245,7 +245,7 @@ var (
 	buildTrimpath   bool        // -trimpath
 	buildWork       bool        // -work
 	buildBundleID   string      // -bundleid
-	buildTeamID   string        // -teamid
+	buildTeamID     string      // -teamid
 	buildIOSVersion string      // -iosversion
 	buildAndroidAPI int         // -androidapi
 	buildTags       stringsFlag // -tags

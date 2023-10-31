@@ -7,9 +7,9 @@
 package nux
 
 import (
-	// "nuxui.org/nuxui/log"
-	"nuxui.org/nuxui/nux/internal/linux"
-	"nuxui.org/nuxui/nux/internal/linux/gtk3"
+	// "github.com/millken/nuxui/log"
+	"github.com/millken/nuxui/nux/internal/linux"
+	"github.com/millken/nuxui/nux/internal/linux/gtk3"
 )
 
 func showViewFileDialog(dialog *viewFileDialog) {

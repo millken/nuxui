@@ -8,8 +8,8 @@ import (
 	"fmt"
 	"strings"
 
-	"nuxui.org/nuxui/log"
-	"nuxui.org/nuxui/util"
+	"github.com/millken/nuxui/log"
+	"github.com/millken/nuxui/util"
 )
 
 type Size interface {
@@ -89,7 +89,9 @@ func (me *Frame) Clear() {
 	me.Padding.Bottom = 0
 }
 
-/* padding:  only supported definite size and Percent size
+/*
+	padding:  only supported definite size and Percent size
+
 10px 10dp 1em 5% !auto !wt !ratio !unlimit
 padding Percent size is associate with parent size, eg: 5% = 0.05*parent.Width
 */

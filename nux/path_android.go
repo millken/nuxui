@@ -7,8 +7,9 @@
 package nux
 
 import (
-	"nuxui.org/nuxui/nux/internal/android"
 	"runtime"
+
+	"github.com/millken/nuxui/nux/internal/android"
 )
 
 type path struct {

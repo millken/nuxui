@@ -7,11 +7,12 @@
 package nux
 
 import (
-	"nuxui.org/nuxui/log"
-	"nuxui.org/nuxui/nux/internal/android"
 	"os"
 	"runtime"
 	"time"
+
+	"github.com/millken/nuxui/log"
+	"github.com/millken/nuxui/nux/internal/android"
 )
 
 type nativeWindow struct {

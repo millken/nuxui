@@ -13,7 +13,7 @@ import (
 	"runtime"
 	"strings"
 
-	"nuxui.org/nuxui/cmd/nux/internal/sdkpath"
+	"github.com/millken/nuxui/cmd/nux/internal/sdkpath"
 )
 
 // General mobile build environment. Initialized by envInit.

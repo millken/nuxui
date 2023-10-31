@@ -6,5 +6,5 @@
 package main
 
 // import (
-// 	_ "nuxui.org/nuxui/cmd/gobind"
+// 	_ "github.com/millken/nuxui/cmd/gobind"
 // )

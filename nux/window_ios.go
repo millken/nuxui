@@ -10,8 +10,8 @@ import (
 	"runtime"
 	"time"
 
-	"nuxui.org/nuxui/log"
-	"nuxui.org/nuxui/nux/internal/ios"
+	"github.com/millken/nuxui/log"
+	"github.com/millken/nuxui/nux/internal/ios"
 )
 
 type nativeWindow struct {

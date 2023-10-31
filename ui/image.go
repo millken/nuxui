@@ -7,9 +7,9 @@ package ui
 import (
 	"fmt"
 
-	"nuxui.org/nuxui/log"
-	"nuxui.org/nuxui/nux"
-	"nuxui.org/nuxui/util"
+	"github.com/millken/nuxui/log"
+	"github.com/millken/nuxui/nux"
+	"github.com/millken/nuxui/util"
 )
 
 var _ Image = (*image)(nil)

@@ -21,7 +21,7 @@ import (
 	"unicode"
 	"unicode/utf8"
 
-	"nuxui.org/nuxui/cmd/nux/internal/importers"
+	"github.com/millken/nuxui/cmd/nux/internal/importers"
 )
 
 // Class is the bind representation of a Java class or

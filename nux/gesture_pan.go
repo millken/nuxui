@@ -5,8 +5,8 @@
 package nux
 
 import (
-	"nuxui.org/nuxui/log"
-	"nuxui.org/nuxui/util"
+	"github.com/millken/nuxui/log"
+	"github.com/millken/nuxui/util"
 )
 
 func OnPanDown(widget Widget, callback GestureCallback) {
@@ -61,7 +61,7 @@ func removePanCallback(widget Widget, which int, callback GestureCallback) {
 	}
 }
 
-///////////////////////////// PanGestureRecognizer   /////////////////////////////
+// /////////////////////////// PanGestureRecognizer   /////////////////////////////
 const (
 	_ACTION_PAN_DOWN = iota
 	_ACTION_PAN_UPDATE

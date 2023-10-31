@@ -19,7 +19,7 @@ void  nux_BackToUI();
 import "C"
 
 import (
-	"nuxui.org/nuxui/nux/internal/android/callfn"
+	"github.com/millken/nuxui/nux/internal/android/callfn"
 )
 
 var (

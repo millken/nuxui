@@ -14,7 +14,7 @@ import (
 	"path/filepath"
 	"strings"
 
-	"nuxui.org/nuxui/cmd/nux/internal/sdkpath"
+	"github.com/millken/nuxui/cmd/nux/internal/sdkpath"
 	"golang.org/x/tools/go/packages"
 )
 

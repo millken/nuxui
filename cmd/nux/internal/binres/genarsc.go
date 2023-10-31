@@ -17,7 +17,7 @@ import (
 	"log"
 	"strconv"
 
-	"nuxui.org/nuxui/cmd/nux/internal/binres"
+	"github.com/millken/nuxui/cmd/nux/internal/binres"
 )
 
 const tmpl = `// Copyright 2016 The Go Authors.  All rights reserved.

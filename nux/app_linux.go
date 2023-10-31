@@ -7,10 +7,11 @@
 package nux
 
 import (
-	// "nuxui.org/nuxui/log"
-	"nuxui.org/nuxui/nux/internal/linux"
-	"nuxui.org/nuxui/nux/internal/linux/xlib"
+	// "github.com/millken/nuxui/log"
 	"unsafe"
+
+	"github.com/millken/nuxui/nux/internal/linux"
+	"github.com/millken/nuxui/nux/internal/linux/xlib"
 )
 
 type nativeApp struct {

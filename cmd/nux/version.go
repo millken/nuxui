@@ -12,7 +12,7 @@ import (
 	"path/filepath"
 	"strings"
 
-	"nuxui.org/nuxui/cmd/nux/internal/sdkpath"
+	"github.com/millken/nuxui/cmd/nux/internal/sdkpath"
 )
 
 var cmdVersion = &command{
@@ -26,7 +26,7 @@ Version prints versions of the gomobile binary and tools
 }
 
 func runVersion(cmd *command) (err error) {
-	// Check this binary matches the version in nuxui.org/nuxui/cmd/nux
+	// Check this binary matches the version in github.com/millken/nuxui/cmd/nux
 	// source code in GOPATH. If they don't match, currently there is no
 	// way to reliably identify the revision number this binary was built
 	// against.
@@ -36,7 +36,7 @@ func runVersion(cmd *command) (err error) {
 			return "", err
 		}
 		bindir := filepath.Dir(bin)
-		cmd := exec.Command("go", "list", "-f", "{{.Stale}}", "nuxui.org/nuxui/cmd/nux")
+		cmd := exec.Command("go", "list", "-f", "{{.Stale}}", "github.com/millken/nuxui/cmd/nux")
 		cmd.Env = append(os.Environ(), "GOBIN="+bindir)
 		out, err := cmd.CombinedOutput()
 		if err != nil {
@@ -65,7 +65,7 @@ func runVersion(cmd *command) (err error) {
 }
 
 func mobileRepoRevision() (rev string, err error) {
-	b, err := exec.Command("go", "list", "-f", "{{.Dir}}", "nuxui.org/nuxui/nux").CombinedOutput()
+	b, err := exec.Command("go", "list", "-f", "{{.Dir}}", "github.com/millken/nuxui/nux").CombinedOutput()
 	if err != nil {
 		return "", fmt.Errorf("nux repo not found: %v, %s", err, b)
 	}

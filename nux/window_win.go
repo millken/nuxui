@@ -11,8 +11,8 @@ import (
 	"time"
 	"unsafe"
 
-	"nuxui.org/nuxui/log"
-	"nuxui.org/nuxui/nux/internal/win32"
+	"github.com/millken/nuxui/log"
+	"github.com/millken/nuxui/nux/internal/win32"
 )
 
 const windowClass = "nux_window_cls"

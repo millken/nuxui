@@ -9,7 +9,7 @@ import (
 	"math"
 	"time"
 
-	"nuxui.org/nuxui/log"
+	"github.com/millken/nuxui/log"
 )
 
 //---------------  Readonly Event --------------------------------

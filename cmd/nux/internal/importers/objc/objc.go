@@ -19,7 +19,7 @@ import (
 	"unicode"
 	"unicode/utf8"
 
-	"nuxui.org/nuxui/cmd/nux/internal/importers"
+	"github.com/millken/nuxui/cmd/nux/internal/importers"
 )
 
 type parser struct {

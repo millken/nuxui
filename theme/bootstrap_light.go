@@ -7,7 +7,7 @@ package theme
 const BootstrapLight = `
 {
 	import: {
-		ui: nuxui.org/nuxui/ui,
+		ui: github.com/millken/nuxui/ui,
 	},
 
 	style: {

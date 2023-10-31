@@ -7,10 +7,11 @@
 package nux
 
 import (
-	"nuxui.org/nuxui/nux/internal/cairo"
 	"path/filepath"
 	"runtime"
 	"strings"
+
+	"github.com/millken/nuxui/nux/internal/cairo"
 )
 
 func loadImageFromFile(path string) Image {

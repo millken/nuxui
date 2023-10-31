@@ -7,7 +7,7 @@
 package android
 
 import (
-	"nuxui.org/nuxui/log"
+	"github.com/millken/nuxui/log"
 )
 
 type displayMetrics struct {

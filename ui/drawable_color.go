@@ -5,8 +5,8 @@
 package ui
 
 import (
-	"nuxui.org/nuxui/log"
-	"nuxui.org/nuxui/nux"
+	"github.com/millken/nuxui/log"
+	"github.com/millken/nuxui/nux"
 )
 
 var _ ColorDrawable = (*colorDrawable)(nil)

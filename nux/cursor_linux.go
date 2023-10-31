@@ -7,8 +7,8 @@
 package nux
 
 import (
-	"nuxui.org/nuxui/log"
-	"nuxui.org/nuxui/nux/internal/linux/xlib"
+	"github.com/millken/nuxui/log"
+	"github.com/millken/nuxui/nux/internal/linux/xlib"
 )
 
 func getCursorScreenPosition() (x, y float32) {

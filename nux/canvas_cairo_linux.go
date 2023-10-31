@@ -7,9 +7,10 @@
 package nux
 
 import (
-	"nuxui.org/nuxui/nux/internal/cairo"
-	"nuxui.org/nuxui/nux/internal/linux/xlib"
 	"runtime"
+
+	"github.com/millken/nuxui/nux/internal/cairo"
+	"github.com/millken/nuxui/nux/internal/linux/xlib"
 )
 
 type canvas struct {

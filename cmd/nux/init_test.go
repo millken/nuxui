@@ -175,7 +175,7 @@ var initTmpl = template.Must(template.New("output").Parse(`GOMOBILE={{.GOPATH}}/
 rm -r -f "$GOMOBILE"
 mkdir -p $GOMOBILE
 WORK={{.GOPATH}}/pkg/gomobile/work
-go install -x nuxui.org/nuxui/cmd/gobind@latest
+go install -x github.com/millken/nuxui/cmd/gobind@latest
 cp $OPENAL_PATH/include/AL/al.h $GOMOBILE/include/AL/al.h
 mkdir -p $GOMOBILE/include/AL
 cp $OPENAL_PATH/include/AL/alc.h $GOMOBILE/include/AL/alc.h

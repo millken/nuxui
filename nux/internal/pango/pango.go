@@ -14,9 +14,10 @@ package pango
 import "C"
 
 import (
-	"nuxui.org/nuxui/log"
-	"nuxui.org/nuxui/nux/internal/cairo"
 	"unsafe"
+
+	"github.com/millken/nuxui/log"
+	"github.com/millken/nuxui/nux/internal/cairo"
 )
 
 const Scale = C.PANGO_SCALE

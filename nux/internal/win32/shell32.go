@@ -7,9 +7,10 @@
 package win32
 
 import (
-	"nuxui.org/nuxui/nux/internal/win32/com"
 	"syscall"
 	"unsafe"
+
+	"github.com/millken/nuxui/nux/internal/win32/com"
 )
 
 var (

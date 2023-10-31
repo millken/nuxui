@@ -30,7 +30,7 @@ import (
 	"os/exec"
 	"path/filepath"
 
-	"nuxui.org/nuxui/cmd/nux/internal/sdkpath"
+	"github.com/millken/nuxui/cmd/nux/internal/sdkpath"
 )
 
 var outfile = flag.String("o", "", "result will be written file")
@@ -104,10 +104,10 @@ func gendex() error {
 		return err
 	}
 	data := base64.StdEncoding.EncodeToString(src)
-	
+
 	buf := new(bytes.Buffer)
 	fmt.Fprint(buf, header)
-	
+
 	var piece string
 	for len(data) > 0 {
 		l := 70
@@ -123,7 +123,7 @@ func gendex() error {
 		buf.WriteTo(os.Stderr)
 		return err
 	}
-	
+
 	w, err := os.Create(*outfile)
 	if err != nil {
 		return err

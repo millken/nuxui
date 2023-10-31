@@ -9,7 +9,7 @@ package nux
 import (
 	"runtime"
 
-	"nuxui.org/nuxui/nux/internal/android"
+	"github.com/millken/nuxui/nux/internal/android"
 )
 
 func NewPaint() Paint {

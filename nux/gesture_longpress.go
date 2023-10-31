@@ -5,8 +5,8 @@
 package nux
 
 import (
-	"nuxui.org/nuxui/log"
-	"nuxui.org/nuxui/util"
+	"github.com/millken/nuxui/log"
+	"github.com/millken/nuxui/util"
 )
 
 func OnLongPress(widget Widget, callback GestureCallback) {

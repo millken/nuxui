@@ -7,7 +7,7 @@
 package nux
 
 import (
-	"nuxui.org/nuxui/nux/internal/ios"
+	"github.com/millken/nuxui/nux/internal/ios"
 )
 
 type nativeApp struct {

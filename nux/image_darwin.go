@@ -7,8 +7,9 @@
 package nux
 
 import (
-	"nuxui.org/nuxui/nux/internal/darwin"
 	"runtime"
+
+	"github.com/millken/nuxui/nux/internal/darwin"
 )
 
 func loadImageFromFile(filename string) Image {

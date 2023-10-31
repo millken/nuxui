@@ -7,8 +7,8 @@ package test
 import (
 	"testing"
 
-	"nuxui.org/nuxui/log"
-	"nuxui.org/nuxui/nux"
+	"github.com/millken/nuxui/log"
+	"github.com/millken/nuxui/nux"
 )
 
 func TestDimen(t *testing.T) {

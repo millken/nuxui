@@ -5,8 +5,8 @@
 package nux
 
 import (
-	"nuxui.org/nuxui/log"
-	"nuxui.org/nuxui/util"
+	"github.com/millken/nuxui/log"
+	"github.com/millken/nuxui/util"
 )
 
 var _ Window = (*window)(nil)
@@ -83,7 +83,7 @@ func (me *window) createDecor(attr Attr) Parent {
 		"background": "#ffffff",
 	}
 
-	creator := FindTypeCreator("nuxui.org/nuxui/ui.Layer")
+	creator := FindTypeCreator("github.com/millken/nuxui/ui.Layer")
 	w := creator(MergeAttrs(decorAttr, attr))
 	if p, ok := w.(Parent); ok {
 		p.Info().Self = p

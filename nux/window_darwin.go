@@ -10,7 +10,7 @@ import (
 	"runtime"
 	"time"
 
-	"nuxui.org/nuxui/nux/internal/darwin"
+	"github.com/millken/nuxui/nux/internal/darwin"
 )
 
 type nativeWindow struct {

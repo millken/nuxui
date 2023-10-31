@@ -8,8 +8,9 @@ package nux
 
 import (
 	"math"
-	"nuxui.org/nuxui/nux/internal/ios"
 	"runtime"
+
+	"github.com/millken/nuxui/nux/internal/ios"
 )
 
 type nativeFont struct {

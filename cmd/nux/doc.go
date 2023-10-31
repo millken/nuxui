@@ -9,7 +9,7 @@ Gomobile is a tool for building and running mobile apps written in Go.
 
 To install:
 
-	$ go install nuxui.org/nuxui/cmd/nux@latest
+	$ go install github.com/millken/nuxui/cmd/nux@latest
 	$ gomobile init
 
 At least Go 1.18 is required.
@@ -167,4 +167,4 @@ Usage:
 
 Version prints versions of the gomobile binary and tools
 */
-package main // import "nuxui.org/nuxui/cmd/nux"
+package main // import "github.com/millken/nuxui/cmd/nux"

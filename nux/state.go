@@ -4,7 +4,7 @@
 
 package nux
 
-import "nuxui.org/nuxui/log"
+import "github.com/millken/nuxui/log"
 
 type Stateable interface {
 	AddState(state uint32) (changed bool)

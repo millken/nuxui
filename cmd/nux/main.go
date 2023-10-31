@@ -151,7 +151,7 @@ func helpDocumentation(path string) {
 		w.WriteString(cmd.Long)
 	}
 
-	w.WriteString("*/\npackage main // import \"nuxui.org/nuxui/cmd/nux\"\n")
+	w.WriteString("*/\npackage main // import \"github.com/millken/nuxui/cmd/nux\"\n")
 
 	if err := ioutil.WriteFile(path, w.Bytes(), 0666); err != nil {
 		log.Fatal(err)
@@ -186,7 +186,7 @@ var usageTmpl = template.Must(template.New("usage").Parse(
 
 To install:
 
-	$ go install nuxui.org/nuxui/cmd/nux@latest
+	$ go install github.com/millken/nuxui/cmd/nux@latest
 	$ nux init
 
 At least Go 1.18 is required.

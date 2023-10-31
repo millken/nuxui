@@ -8,8 +8,9 @@ package nux
 
 import (
 	"math"
-	"nuxui.org/nuxui/nux/internal/win32"
 	"runtime"
+
+	"github.com/millken/nuxui/nux/internal/win32"
 )
 
 // http://etutorials.org/Programming/visual-c-sharp/Part+III+Programming+Windows+Forms/Chapter+14+GDI/Using+Fonts/

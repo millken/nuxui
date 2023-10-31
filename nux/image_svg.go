@@ -15,7 +15,7 @@ import (
 	"strconv"
 	"strings"
 
-	"nuxui.org/nuxui/log"
+	"github.com/millken/nuxui/log"
 )
 
 func ReadImageSVG(svgstr string) Image {

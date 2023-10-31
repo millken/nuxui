@@ -7,10 +7,11 @@
 package nux
 
 import (
-	// "nuxui.org/nuxui/log"
-	"nuxui.org/nuxui/nux/internal/cairo"
-	"nuxui.org/nuxui/nux/internal/pango"
+	// "github.com/millken/nuxui/log"
 	"runtime"
+
+	"github.com/millken/nuxui/nux/internal/cairo"
+	"github.com/millken/nuxui/nux/internal/pango"
 )
 
 type nativeFont struct {

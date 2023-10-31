@@ -4,7 +4,7 @@
 
 package ui
 
-import "nuxui.org/nuxui/nux"
+import "github.com/millken/nuxui/nux"
 
 func init() {
 	nux.RegisterType((*Row)(nil), func(attr nux.Attr) any { return NewRow(attr) })

@@ -18,8 +18,9 @@ package cairo
 import "C"
 
 import (
-	"nuxui.org/nuxui/nux/internal/linux/xlib"
 	"unsafe"
+
+	"github.com/millken/nuxui/nux/internal/linux/xlib"
 )
 
 func XlibSurfaceCreate(display *xlib.Display, drawable xlib.Drawable, visual *xlib.Visual, width, height int32) *Surface {

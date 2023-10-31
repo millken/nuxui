@@ -7,12 +7,13 @@
 package nux
 
 import (
-	"nuxui.org/nuxui/log"
-	"nuxui.org/nuxui/nux/internal/win32"
-	"nuxui.org/nuxui/nux/internal/win32/com"
 	"path/filepath"
 	"syscall"
 	"unsafe"
+
+	"github.com/millken/nuxui/log"
+	"github.com/millken/nuxui/nux/internal/win32"
+	"github.com/millken/nuxui/nux/internal/win32/com"
 )
 
 func showViewFileDialog(dialog *viewFileDialog) {

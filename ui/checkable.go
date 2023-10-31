@@ -4,7 +4,7 @@
 
 package ui
 
-import "nuxui.org/nuxui/nux"
+import "github.com/millken/nuxui/nux"
 
 type CheckChangedCallback func(widget CheckableWidget, checked bool, fromUser bool)
 

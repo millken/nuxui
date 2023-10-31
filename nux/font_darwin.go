@@ -8,8 +8,9 @@ package nux
 
 import (
 	"math"
-	"nuxui.org/nuxui/nux/internal/darwin"
 	"runtime"
+
+	"github.com/millken/nuxui/nux/internal/darwin"
 )
 
 type nativeFont struct {
